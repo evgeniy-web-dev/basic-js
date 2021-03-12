@@ -10,10 +10,10 @@ module.exports = function repeater(str, {repeatTimes = 1, separator = '+', addit
   for(let i = 0; i <= additionRepeatTimes - 1; i++){
     additionEl.push(addition);
   }
-  additionStr = additionEl.join(additionSeparator);
+    additionStr = additionEl.join(additionSeparator);
   let strArr = [];
   for(let i = 0; i <= repeatTimes - 1; i++){
     strArr.push(`${str}${additionStr}`);
   }
-  return strArr.join(separator);
-};
+    return strArr.join(separator);
+  };

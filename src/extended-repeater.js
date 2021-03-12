@@ -1,5 +1,5 @@
 // Расширенный репитер
-// Ваша задача реализовать функцию повторителя (str, options). 
+// Задача - реализовать функцию повторителя (str, options). 
 
 const CustomError = require("../extensions/custom-error");
 
